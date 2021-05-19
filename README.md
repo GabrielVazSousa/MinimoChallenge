@@ -2,11 +2,11 @@
 Desafio de Programação - Minimo 2021
 
 
-Olá!! Tudo bem com vocês? 
+Olá!! 
 
-Se você está aqui, provavelmente está participando do processo seletivo da Minimo! Seja muito bem-vindo, e esperamos que gostem do desafio que vamos propôr. Pensamos esta etapa como meio de tornar esta experiência mais construtiva para vocês e também para nos ajudar a avaliar o fit de vocês com a empresa!
+Se você está aqui, provavelmente está participando do processo seletivo da Minimo! Seja muito bem-vindo, e esperamos que goste do desafio que vamos propôr. Pensamos esta etapa como meio de tornar esta experiência mais construtiva para você e também para nos ajudar a avaliar o seu alinhamento com os valores da empresa.
 
-Como dissemos na descrição da vaga no site da Preparo, nós não esperamos nenhum conhecimento técnico prévio de nenhum dos candidatos. Mas uma coisa que valorizamos muito por aqui, é a **capacidade de aprender** e a **autonomia** de cada um. No dia a dia da empresa vocês irão se deparar com inúmeras situações em que vocês terão que:
+Como dissemos na descrição da vaga no site da Preparo, nós não esperamos nenhum conhecimento técnico prévio de nenhum dos candidatos. Mas uma coisa que valorizamos muito por aqui, é a **capacidade de aprender** e a **autonomia** de cada um. No dia a dia da empresa você irá se deparar com inúmeras situações em terá que:
 
 * entender uma necessidade do cliente
 * converter esta necessidade em requisitos técnicos
@@ -17,11 +17,11 @@ Como dissemos na descrição da vaga no site da Preparo, nós não esperamos nen
 * Monitoramento e manutenção da solução 
 * Prospecção de novas oportunidades 
 
-Pensando nisso, desenvolvemos este desafio, que consta de uma pequena simulação do processo descrito acima. Na maioria dos casos, não nos prendemos a uma tecnologia ou metodologia específica para solucionar nossos problemas. Porém, dado o contexto atual, uma das maneiras mais eficientes e coerentes de solucionar problemas é por meio da utilização de software! Por isso, no desafio de hoje, vocês utilizarão esta ferramenta principal. Chega de papo, e vamos logo para a descrição do case! 
+Pensando nisso, desenvolvemos este desafio, que consta de uma simulação de uma pequena parte do processo descrito acima. Não nos prendemos a uma tecnologia ou metodologia específica para solucionar nossos problemas. 
 
 # O Desafio
 ## Descrição do case
-Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atuação é o **e-commerce**, chamado **Vendas Mil**. Este cliente ele possui diversos parceiros de logística para entregar os seus prdutos na casa de seus clientes, e cada parceiro possui uma maneira diferente de calcular o preço cobrado pelo envio dos pedidos. Um deles é o **Logistica Inteligente** e ele cobra do **Vendas Mil** por meio de duas frentes diferentes: Logística e Frete. A soma das duas frentes compõe o preço final que será cobrado por pedido. O preço é composto da seguinte regra: 
+Imagine-se trabalhando para um determinado cliente da Minimo, cuja área de atuação é o **e-commerce**, chamado **Vendas Mil**. Este cliente possui diversos parceiros de logística para entregar os seus produtos na casa de seus clientes, e cada parceiro possui uma maneira diferente de calcular o preço cobrado pelo envio dos pedidos. Um deles é o **Logistica Inteligente** e ele cobra do **Vendas Mil** por meio de duas frentes diferentes: Logística e Frete. A soma das duas frentes compõe o preço final que será cobrado por pedido. O preço é formado a partir da seguinte regra: 
 
 ### Custo de Logística:
 O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo forncedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
@@ -29,7 +29,7 @@ O custo de logística é o preço cobrado para receber, empacotar, armazenar e e
 ![image](https://user-images.githubusercontent.com/53821307/118822844-e0b8b400-b88e-11eb-803d-46b130d6bf49.png)
  
 observações:
- * Considere que o 
+ * Considere que o ...
 
 ### Custo de Frete:
 O custo de frete é o preço cobrado para levar o pedido até a casa do comprador. Ele é calculado com base no CEP do comprador e do peso total do pacote a ser enviado. Para calcular o preço do frete, é necessário consultar as tabelas em csv disponibilizadas neste repositório dentro da pasta "CSVs". 
@@ -49,7 +49,7 @@ O programa que você desenvolver deve ter como **entrada** os seguintes **parâm
 E deve ter como **saída** o preço que será cobrado por pedido. 
 
 ### Casos de teste
-O seu software que você desenvolver dar a mesma resposta para os casos descritos abaixo:
+A seguir seguem casos de teste para serem usados na validação da sua solução.
 
 #### Caso 1:
 **Parâmetros**: 
