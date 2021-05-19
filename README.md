@@ -37,7 +37,7 @@ O custo de frete é o preço cobrado para levar o pedido até a casa do comprado
 Basicamente basta consultar a coluna "Geografia Comercial" para determinado intervalo de "CEP Inicial" e "CEP Final" que contém o CEP do comprador no arquivo "codigo-por-cep.csv". E então consultar qual o preço para o código encontrado no processo anterior e peso do total do pedido no arquivo "preco-por-codigo-e-peso.csv". 
 
 ## Regras
-Faça um fork deste repositório e desenvolva um software para automatizar o cálculo do preço que será cobrado por pedido utilizando sua tecnologia de preferência (python, javascript, c#, etc.).
+Faça um fork deste repositório e desenvolva um software para automatizar o cálculo do preço que será cobrado por pedido utilizando sua tecnologia de preferência.
 
 O programa que você desenvolver deve ter como **entrada** os seguintes **parâmetros**: 
 
